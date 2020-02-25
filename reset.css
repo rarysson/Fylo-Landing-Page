@@ -11,3 +11,7 @@ a {
 button {
 	cursor: pointer;
 }
+
+ul, ol {
+	list-style: none;
+}

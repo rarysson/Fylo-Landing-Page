@@ -8,6 +8,7 @@
   <title>Fylo landing page | Frontend Mentor</title>
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/4279f73342.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -15,6 +16,7 @@
 <body>
   <header>
     <img src="./images/logo.svg" alt="logo">
+
     <div class="header-buttons">
       <button>Features</button>
       <button>Team</button>
@@ -22,34 +24,41 @@
     </div>
   </header>
 
-  <section>
+  <section class="section-1">
     <div class="info">
       <h1>All your files in one secure location, accessible anywhere.</h1>
-      <p>Fylo stores your most important files in one secure location.
+      <p>
+        Fylo stores your most important files in one secure location.
         Access them wherever you need, share and collaborate with friends,
-        family, and co-workers.</p>
-      <input type="email" name="email">
-      <button>Get Started</button>
+        family, and co-workers.
+      </p>
+
+      <div class="actions">
+        <input type="email" name="email" placeholder="Enter your email...">
+        <button class="primary-button">Get Started</button>
+      </div>
     </div>
 
     <img src="./images/illustration-1.svg" alt="">
   </section>
 
-  <section>
+  <section class="section-2">
     <div class="info">
       <h1>Stay productive, wherever you are</h1>
       <p>
         Never let location be an issue when accessing your files. Fylo has you
         covered for all of your file storage needs.
-        <br>
+      </p>
+      <p>
         Securely share files and folders with friends, family and colleagues for
         live collaboration. No email attachments required!
-        <br>
       </p>
 
       <div class="link">
-        <a href="#">See how Fylo works</a>
-        <img src="./images/icon-arrow.svg" alt="demonstration">
+        <a href="#">
+          See how Fylo works
+          <img src="./images/icon-arrow.svg" alt="demonstration">
+        </a>
       </div>
 
       <div class="testimonial">
@@ -62,7 +71,7 @@
         <div class="author">
           <img src="./images/avatar-testimonial.jpg" alt="">
           <div class="author-info">
-            <p class="name">Kyle Burton</p>
+            <p class="name"><b>Kyle Burton</b></p>
             <p class="description">Founder & CEO, Huddle</p>
           </div>
         </div>
@@ -72,7 +81,7 @@
     <img src="./images/illustration-2.svg" alt="">
   </section>
 
-  <section>
+  <section class="section-3">
     <div class="info">
       <h1>Get early access today</h1>
       <p>
@@ -82,8 +91,8 @@
     </div>
 
     <div class="get-started">
-      <input type="email" name="email">
-      <button>Get Started For Free</button>
+      <input type="email" name="email" placeholder="email@example.com">
+      <button class="primary-button">Get Started For Free</button>
     </div>
   </section>
 
@@ -92,36 +101,42 @@
 
     <div class="extra-info">
       <div class="contacts">
-        <div class="phone">
+        <div class="contact">
           <img src="./images/icon-phone.svg" alt="">
           <p>Phone: +1-543-123-4567</p>
         </div>
 
-        <div class="email">
+        <div class="contact">
           <img src="./images/icon-email.svg" alt="">
           <p>example@fylo.com</p>
         </div>
       </div>
 
-      <div class="about-fylo">
-        <p>About Us</p>
-        <p>Jobs</p>
-        <p>Press</p>
-        <p>Blog</p>
-      </div>
+      <ul class="about-fylo">
+        <li>About Us</li>
+        <li>Jobs</li>
+        <li>Press</li>
+        <li>Blog</li>
+      </ul>
 
-      <div class="legal-fylo">
-        <p>Contact Us</p>
-        <p>Terms</p>
-        <p>Privacy</p>
-      </div>
+      <ul class="about-fylo">
+        <li>Contact Us</li>
+        <li>Terms</li>
+        <li>Privacy</li>
+      </ul>
+
+      <ul class="logos">
+        <li><i class="fab fa-facebook-f"></i></li>
+        <li><i class="fab fa-twitter"></i></li>
+        <li><i class="fab fa-instagram"></i></li>
+      </ul>
     </div>
   </footer>
 
   <div class="credits">
     <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Rarysson</a>.
+      Challenge by <a href="https://www.frontendmentor.io/challenges/fylo-landing-page-with-two-column-layout-5ca5ef041e82137ec91a50f5" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/rarysson">Rarysson</a>.
     </p>
   </div>
 </body>
