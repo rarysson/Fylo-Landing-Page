@@ -81,6 +81,7 @@ header img {
 
 header button {
 	background-color: transparent;
+	width: max-content;
 	flex: 1 0 auto;
 	margin: 0 2%;
 	padding: 1% 7%;
@@ -123,6 +124,10 @@ section > * {
 
 section h1 {
 	font-size: calc(32px + 1vw);
+}
+
+section img:nth-child(2) {
+	width: 10%;
 }
 
 .info {
