@@ -333,7 +333,7 @@ section h1 {
 }
 
 .get-started button {
-	width: 30%;
+	width: max-content;
 	padding: 1.5% 2.5%;
 	font-size: calc(12px + 0.5vw);
 }
