@@ -4,4 +4,4 @@
 
 ## About
 
-Landing page developed only with HTML and CSS. Where the design was based on the design above.
+The project was made with HTML and CSS (mainly with Flebox). Where the main purpose of the project was to make the page similar to the design above.
